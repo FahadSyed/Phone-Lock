@@ -1,0 +1,19 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+    <Button android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/lock_button"
+        android:text="Lock Phone"
+        android:textColor="#FFFFFF"
+        android:id="@+id/destroyPhone"
+        android:layout_gravity="center"
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true"
+        android:width="300dp"
+        android:height="100dp"/>
+    <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:textAppearance="?android:attr/textAppearanceLarge" android:text="Tap top right corner to unlock"
+        android:layout_marginTop="10dp" android:id="@+id/textView" android:layout_alignParentTop="true" android:layout_centerHorizontal="true" android:singleLine="false" android:textColor="#EE2C2C"/>
+    <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="created by fahad syed" android:id="@+id/textView4" android:layout_alignParentBottom="true" android:layout_alignParentRight="true" android:layout_alignParentEnd="true" android:layout_marginRight="3dp" android:layout_marginBottom="2dp"/>
+</RelativeLayout>
